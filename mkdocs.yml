@@ -1,0 +1,35 @@
+site_name: Yomi
+
+repo_name: Yomi
+repo_url: 'https://https://github.com/ltakehana/Yomi-Docs'
+
+docs_dir: yomi_docs/
+site_dir: docs/
+
+copyright: 'Copyright &copy; 2021 Yomi'
+
+theme:
+  name: 'material'
+  favicon: Images/logo.pmg
+  logo: Images/logo.png
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: 'slate'
+      primary: deep purple
+      accent: deep purple
+nav:
+  - Início: index.md
+  - Doc Arquitetura:
+    - architecture.md
+  - Doc Visão:
+    - vision.md
+  - Roadmap:
+    - roadmap.md
+  - Backlog:
+    - backlog.md
+  - Políticas:
+    - Branch: Policies/branch.md
+    - Commit: Policies/commit.md
+    - Issue: Policies/issue.md
+    - PR: Policies/pr.md
